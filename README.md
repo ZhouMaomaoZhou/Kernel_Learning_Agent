@@ -11,7 +11,7 @@
 1. **核查证据。** 固定版本和边界，从真实入口走完一个例子，再改变一个条件核对分支。领域模块补齐该问题特有的事实。
 2. **规划讲解。** 先列知识地图，按读者掌握程度分配简讲、细讲和按需展开。先回答是什么、为什么，再用同一个例子讲完整路径、决策和实现。
 3. **选择表达。** 讲义沿提纲交付。HTML 每节围绕一个问题，用主图呈现关系，把源码与证据放在相关机制旁；需要跟踪状态变化时才加步进。
-4. **审查与迭代。** 核对结论、真实路径与反例。HTML 另外走读页面，在桌面和窄屏检查布局、交互和阅读顺序。按读者第一次卡住的位置修复并复查。
+4. **审查与迭代。** 核对结论、真实路径与反例。HTML 另外按[阅读环境](skills/formats/html/visual-design/references/design.md#阅读环境)走读，检查布局、交互和阅读顺序。按读者第一次卡住的位置修复并复查。
 
 ## Skill 目录
 
@@ -19,7 +19,7 @@
 | --- | --- | --- |
 | `skills/core/` | [来源核查](skills/core/source-evidence/SKILL.md) · [讲解规划](skills/core/lesson-plan/SKILL.md) · [技术审查](skills/core/technical-review/SKILL.md) | 按当前阶段加载 |
 | `skills/domains/` | [Kernel 分析](workflows/technical-learning.md#按问题接入领域-skill) · [项目拆解](skills/domains/project/project-breakdown/SKILL.md) · [Runtime 集成](skills/domains/runtime/runtime-integration/SKILL.md) | 按学习问题选取；混合案例可以组合 |
-| `skills/formats/html/` | [视觉设计](skills/formats/html/visual-design/SKILL.md) · [步进场景](skills/formats/html/scene-author/SKILL.md) · [视觉审查](skills/formats/html/visual-review/SKILL.md) | 交付 HTML 时按需加载 |
+| `skills/formats/html/` | [视觉设计](skills/formats/html/visual-design/SKILL.md) · [模板参考](skills/formats/html/html-ppt-reference/SKILL.md) · [步进场景](skills/formats/html/scene-author/SKILL.md) · [视觉审查](skills/formats/html/visual-review/SKILL.md) | 交付 HTML 时按需加载 |
 
 例如，“这个工具如何收录和查询 PR？”用项目拆解，分别跟踪维护者和使用者。“输入变长时为什么切换实现？”用 kernel 的 intake、model 和 explain。“kern 为什么接入 vLLM？”用 runtime 集成，从注册与绑定追到结果交回；要看某个算子的线程分工时再加 kernel 模块。
 
